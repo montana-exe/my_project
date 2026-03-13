@@ -1,0 +1,20 @@
+# Python-специфичные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+.env
+
+# IDE и редакторы
+.vscode/
+.idea/
+
+# Данные и логи
+*.log
+.DS_Store
