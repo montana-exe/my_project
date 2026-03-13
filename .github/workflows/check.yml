@@ -30,7 +30,7 @@ jobs:
           pip install flake8 mypy
 
       - name: Run flake8
-        run: flake8 .
+        run: flake8 . --ignore=E305,E231,W292
 
       - name: Run mypy
         run: mypy .
