@@ -1,3 +1,3 @@
-from mymodule import square
+from module import square
 
 print(square(7))
