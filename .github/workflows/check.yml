@@ -30,7 +30,7 @@ jobs:
           pip install flake8 mypy
 
       - name: Run flake8
-        run: flake8 .
+        run: flake8 . --exclude=.git,__pycache__,venv
 
       - name: Run mypy
         run: mypy .
